@@ -1,18 +1,20 @@
 # 🐍 Hands-On Python Projects
 
-A collection of hands-on Python projects built to strengthen programming fundamentals, improve problem-solving skills, and explore real-world applications through practical coding.
+A collection of practical Python projects built to strengthen programming fundamentals, improve problem-solving skills, and explore real-world applications through hands-on coding.
 
-## 🎯 Purpose
+## 🎯 About This Repository
 
-The goal of this repository is to learn Python by building projects rather than just watching tutorials. Each project focuses on applying concepts through practical implementation.
+The goal is to learn Python by building projects rather than just watching tutorials. Each project focuses on applying concepts through practical implementation.
 
 ## 📂 Projects
 
 | No. | Project | Concepts Covered | Status |
 |---|---|---|---|
-| 01 | Simple Calculator | Variables, Input/Output, Operators, Conditional Statements, Loops, Exception Handling | ✅ Completed |
-| 02 | Number Guessing Game | Coming Soon | ⏳ |
-| 03 | To-Do List | Coming Soon | ⏳ |
+| 01 | Simple Calculator | Variables, Input/Output, Operators, Conditionals, Loops, Exception Handling | ✅ Completed |
+| 02 | Number Guessing Game | Functions, Random Module, Loops, Conditional Logic, Exception Handling | ✅ Completed |
+| 03 | Rock Paper Scissors | Logic, Random Module, Functions | ⏳ Upcoming |
+| 04 | To-Do List | Lists, Dictionaries, CRUD Operations | ⏳ Upcoming |
+| 05 | Password Generator | Strings, Random Module | ⏳ Upcoming |
 
 ## 🛠️ Technologies Used
 
@@ -38,11 +40,15 @@ hands-on-python-projects/
 │   └── README.md
 │
 ├── 02-number-guessing-game/
+│   ├── number_guessing.py
+│   └── README.md
 │
 └── README.md
 ```
 
 ## 📈 Progress
+
+**2 projects completed and more in progress!**
 
 This repository will continuously evolve as I learn, experiment, and build more Python projects.
 
