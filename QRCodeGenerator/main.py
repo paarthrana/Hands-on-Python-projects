@@ -1,12 +1,27 @@
-'''
-We are going to ues a Python library like qrcode and convert url to qr
-'''
 import qrcode
 
-url = input("Enter your url: ")
-filename = input("Filename you want to save it as: ")
-if not(filename.endswith(".png")):
-    filename = filename + ".png"
+print("===== QR CODE GENERATOR =====")
 
-img = qrcode.make(url)
-img.save(filename)
+url = input("Enter your URL: ").strip()
+
+if not url:
+    print("Error! URL cannot be empty.")
+    exit()
+
+filename = input("Enter filename: ").strip()
+
+if not filename:
+    filename = "qrcode"
+
+if not filename.lower().endswith(".png"):
+    filename += ".png"
+
+try:
+    img = qrcode.make(url)
+    img.save(filename)
+
+    print(f"\nQR Code generated successfully!")
+    print(f"Saved as: {filename}")
+
+except OSError as e:
+    print(f"Error saving QR code: {e}")
